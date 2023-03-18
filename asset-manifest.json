@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/stenpomodoro/static/css/main.d4021f52.chunk.css",
+    "main.js": "/stenpomodoro/static/js/main.b7044bb1.chunk.js",
+    "main.js.map": "/stenpomodoro/static/js/main.b7044bb1.chunk.js.map",
+    "runtime-main.js": "/stenpomodoro/static/js/runtime-main.b2a94b01.js",
+    "runtime-main.js.map": "/stenpomodoro/static/js/runtime-main.b2a94b01.js.map",
+    "static/js/2.77eaea30.chunk.js": "/stenpomodoro/static/js/2.77eaea30.chunk.js",
+    "static/js/2.77eaea30.chunk.js.map": "/stenpomodoro/static/js/2.77eaea30.chunk.js.map",
+    "index.html": "/stenpomodoro/index.html",
+    "static/css/main.d4021f52.chunk.css.map": "/stenpomodoro/static/css/main.d4021f52.chunk.css.map",
+    "static/js/2.77eaea30.chunk.js.LICENSE.txt": "/stenpomodoro/static/js/2.77eaea30.chunk.js.LICENSE.txt",
+    "static/media/logo.2becf4a1.jpg": "/stenpomodoro/static/media/logo.2becf4a1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b2a94b01.js",
+    "static/js/2.77eaea30.chunk.js",
+    "static/css/main.d4021f52.chunk.css",
+    "static/js/main.b7044bb1.chunk.js"
+  ]
+}
