@@ -1,6 +1,5 @@
-### HomeWork React
 
-Pet-Project <br/>
+# Project: StenPomodoro
 
-[-Code-](<https://github.com/St-ton/stenpomodoro/tree/master/src>) <br/>
-[-WWW-](<https://st-ton.github.io/stenpomodoro/>) <br/>
+[-Code-](<https://github.com/St-ton/stenpomodoro/tree/master/src>)
+[-WWW-](<https://st-ton.github.io/stenpomodoro/>)

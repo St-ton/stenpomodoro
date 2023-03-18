@@ -1,11 +1,11 @@
 /* eslint-disable no-restricted-globals */
 import { useCallback, useEffect } from "react";
 import clsx from "clsx";
-import Icon from "./Icon";
-import Progress from "./Progress";
+import Icon from "../Icon/Icon";
+import Progress from "../Progress/Progress";
 import classes from "./Timer.module.css";
 import { useDispatch, useSelector } from "react-redux";
-import { incrementRound, setMode } from "../redux/timerSlice";
+import { incrementRound, setMode } from "../../redux/timerSlice";
 import {
   CONFIRM,
   LONG_BREAK,
@@ -15,10 +15,10 @@ import {
   STOP,
   TIME_FOR_A_BREAK,
   TIME_TO_FOCUS,
-} from "../constants";
-import { updateFavicon, updateTitle, formatTime } from "../helpers";
-import useCountdown from "../useCountdown";
-import { player } from "../util";
+} from "../../services/constants";
+import { updateFavicon, updateTitle, formatTime } from "../../services/helpers";
+import useCountdown from "../../services/useCountdown";
+import { player } from "../../services/util";
 
 const buttonSound = player({
   asset: "sounds/button-press.wav",
@@ -192,6 +192,10 @@ export default function Timer() {
   return (
     <div>
       <Progress percent={progress} />
+      <header className={classes.header}>
+        {mode === POMODORO ? TIME_TO_FOCUS : TIME_FOR_A_BREAK}
+        {` ${mode.split("_").join(" ")} !`}
+      </header>
       <div className={classes.container}>
         <div className={classes.content}>
           <ul>
@@ -223,10 +227,10 @@ export default function Timer() {
           </div>
         </div>
         <div className={classes.counter}>round: {round}</div>
-        <footer className={classes.footer}>
+        {/* <footer className={classes.footer}>
           {mode === POMODORO ? TIME_TO_FOCUS : TIME_FOR_A_BREAK}
-          <u>{` ${mode.split("_").join(" ")} !`}</u>
-        </footer>
+          <u>{` ${mode.split("_").join(" ")} !`}</u> 
+        </footer>*/}
       </div>
     </div>
   );

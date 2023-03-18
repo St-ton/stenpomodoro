@@ -5,7 +5,7 @@ import {
   SHORT_BREAK,
   SLOW_TICKING,
   DIGITAL_SOUND,
-} from "../constants";
+} from "../services/constants";
 
 const initialState = {
   mode: POMODORO,

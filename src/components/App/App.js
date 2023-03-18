@@ -1,6 +1,6 @@
-import Header from "./components/Header";
+import Header from "../Header/Header";
 import classes from "./App.module.css";
-import Timer from "./components/Timer";
+import Timer from "../Timer/Timer";
 import { useSelector } from "react-redux";
 import clsx from "clsx";
 
